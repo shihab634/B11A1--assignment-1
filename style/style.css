@@ -254,6 +254,31 @@ section {
 
   background: rgb(0, 106, 80);
   margin: 0 565px;
+  /* cursor: pointer; */
+}
+.btn:hover {
+  background: #5d1fd1ee;
+}
+.card-btn-1:hover {
+  background: #5d1fd1ee;
+}
+.card-btn-2:hover {
+  background: #5d1fd1ee;
+}
+.card-btn-3:hover {
+  background: #5d1fd1ee;
+}
+.news-btn:hover {
+  background: #5d1fd1ee;
+}
+.donate-button:hover {
+  background: #5d1fd1ee;
+}
+.buttons:hover {
+  background: #5d1fd1ee;
+}
+.donate-btn:hover {
+  background: #5d1fd1ee;
 }
 .donate-banner {
   text-align: center;
@@ -330,4 +355,16 @@ section {
 
   background: rgb(255, 255, 255);
   width: 600px;
+}
+.field-btn {
+  display: flex;
+}
+.vission-card-1:hover {
+  background: #5d1fd1ee;
+}
+.vission-card-2:hover {
+  background: #5d1fd1ee;
+}
+.vission-card-3:hover {
+  background: #b6ef0bee;
 }
