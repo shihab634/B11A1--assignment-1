@@ -230,5 +230,23 @@ section {
   background: rgb(198, 228, 214);
 }
 .custom-amount {
-  width: calc(100% - 40px);
+  /* width: calc(100% - 40px); */
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 20px 40px 20px 40px;
+  margin: 32px 0;
+  align-items: center;
+}
+.input-with-btn {
+  display: flex;
+  flex-direction: column;
+}
+.donate-button {
+  padding: 17px 34px 17px 34px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
 }
