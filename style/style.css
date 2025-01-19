@@ -205,3 +205,30 @@ section {
 
   background: rgb(0, 106, 80);
 }
+/* 4th page */
+.donate-section {
+  background-color: #f5f5f5;
+}
+.donation-amounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.donate-btn {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.selected {
+  background: rgb(198, 228, 214);
+}
+.custom-amount {
+  width: calc(100% - 40px);
+}
